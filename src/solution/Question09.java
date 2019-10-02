@@ -6,4 +6,10 @@ import java.util.Scanner;
  */
 
 public class Question09 {
+    public static void main(String[] artgs) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("Enter String Value : ");
+        String stringInput = scanner.nextLine();
+
+    }
 }
