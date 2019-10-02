@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sourse_Code/Sourse_Code.iml" filepath="$PROJECT_DIR$/Sourse_Code/Sourse_Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringImplementation.iml" filepath="$PROJECT_DIR$/StringImplementation.iml" />
+    </modules>
+  </component>
+</project>
