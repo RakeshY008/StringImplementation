@@ -11,11 +11,14 @@ public class Question07 {
         String stringInput = scanner.nextLine();
         int lengthOfString = stringInput.length();
         int totalWeight = 0;
-        for (int i = 0; i < lengthOfString ; i++) {
-            totalWeight = totalWeight + (int) stringInput.charAt(i);
+        System.out.printf("totalWeight = ");
 
+        for (int i = 0; i < lengthOfString ; i++) {
+            int weightOfChar = (int) stringInput.charAt(i);
+            totalWeight = totalWeight + weightOfChar;
+            System.out.print( weightOfChar + " + ");
         }
-        System.out.println("TotalWeight String : "+ totalWeight);
+        System.out.println("\b\b \n \t \t  = "+ totalWeight);
 
     }
 }
