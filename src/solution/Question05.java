@@ -17,5 +17,9 @@ public class Question05 {
         System.out.printf("Enter the  Value to be Replaced with   : ");
         String subStringInputForReplacement = scanner.nextLine();
 
+        String newStringFormed = stringInput.replace(subStringInput,subStringInputForReplacement);
+        System.out.println("New String : " + newStringFormed);
+
+
     }
 }
