@@ -11,6 +11,8 @@ public class Question06 {
         System.out.printf("Enter String Value : ");
         String stringInput = scanner.nextLine();
 
+        stringInput = stringInput.toLowerCase();
+        System.out.println("Lowered Case : " + stringInput);
 
     }
 }
